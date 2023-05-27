@@ -1,6 +1,8 @@
 .topnav {
     background-color: #272b34;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
   
   .topnav a {
@@ -35,7 +37,7 @@
     display: none;
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -46,7 +48,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -58,11 +60,17 @@
       display: block;
       text-align: left;
     }
+
+    #navName {
+      width: 50%;
+      font-size: 0.8rem;
+    }
   }
 
   #navName {
     pointer-events: none;
     user-select: none;
+
   }
 
   .highlighted {
