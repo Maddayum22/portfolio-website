@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 import { AboutDetailComponent } from './components/about-detail/about-detail.component';
+import { HomeProjectsComponent } from './components/home-projects/home-projects.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AboutDetailComponent } from './components/about-detail/about-detail.com
     ContactComponent,
     ProjectDetailComponent,
     AboutDetailComponent,
+    HomeProjectsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
