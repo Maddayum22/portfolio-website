@@ -4,6 +4,7 @@
   }
   
   .topnav a {
+    user-select: none;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -11,15 +12,18 @@
     padding: 14px 30px;
     text-decoration: none;
     font-size: 17px;
+    border-color: #3b591b;
+    border-radius: 3px;
+    transition: 0.3s;
   }
 
   .topnav a:hover {
-    border-bottom: 3px solid #3b591b;
+    border-bottom: 0.3rem solid #939F5C; 
     color: #f2f2f2;
   }
   
   .topnav a.active {
-    border-bottom: 3px solid #3b591b;
+    border-bottom: 0.3rem solid #939F5C;
     color: #f2f2f2;
   }
 
@@ -54,4 +58,14 @@
       display: block;
       text-align: left;
     }
+  }
+
+  #navName {
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .highlighted {
+    color: #939F5C;
+    font-weight: 200;
   }

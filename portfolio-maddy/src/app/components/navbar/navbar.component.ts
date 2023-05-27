@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
+  public name1: string = '{Madelief van Slooten: ';
+  public name2: string = 'Software Developer';
+  public name3: string = '};';
+
   public hamburgerMenu() {
     var x = document.getElementById('myTopnav');
     if (x!.className === 'topnav') {
