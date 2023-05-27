@@ -7,3 +7,9 @@ body {
     color: #EAEAEA;
     background-color: #171A21;
 }
+
+html {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
