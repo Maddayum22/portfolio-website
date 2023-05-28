@@ -11,6 +11,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 import { AboutDetailComponent } from './components/about-detail/about-detail.component';
 import { HomeProjectsComponent } from './components/home-projects/home-projects.component';
+import { ProjectPageComponent } from './components/project-page/project-page.component';
+import { ProjectListitemComponent } from './components/project-listitem/project-listitem.component';
+import { HighlightJsModule } from 'ngx-highlight-js';
 
 @NgModule({
   declarations: [
@@ -23,8 +26,10 @@ import { HomeProjectsComponent } from './components/home-projects/home-projects.
     ProjectDetailComponent,
     AboutDetailComponent,
     HomeProjectsComponent,
+    ProjectPageComponent,
+    ProjectListitemComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HighlightJsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
