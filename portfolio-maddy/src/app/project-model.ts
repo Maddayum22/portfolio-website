@@ -24,13 +24,14 @@ export const projects = [
     img2: '../../../assets/sdg-website/home.png',
     img3: '../../../assets/sdg-website/post.png',
     stateOfProject: 'Finished',
-    about: `The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 
-      as a universal call to action to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity. These goals are especially important
-      for us students and this is why the HVA Green Office asked us to help make students more motivated to dive in the world of SDGs.
-      <br><br>
-      With this goal in mind, three other students and me started to think what students like us would find motivating. After a while we decided to make a forum-like website,
-      containing small posts, sdg information and sdg news. Our unique selling point is the so called Post Quiz. Students can create a small post about their SDG project or question
-      and add a quiz, so other students can answer questions and give feedback about their project!.
+    about: `The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action to 
+    eradicate poverty, preserve the environment, and ensure that all people can experience peace and prosperity by 2030. These goals hold particular significance for 
+    students, which is why the HVA Green Office has approached us for assistance in fostering greater student engagement with the world of SDGs.
+    <br><br>
+    With this objective in mind, three fellow students and I brainstormed ways to motivate students like ourselves. Eventually, 
+    we decided to create a forum-like website that features concise posts, SDG information, and updates. Our unique selling point is the "Post Quiz" functionality, 
+    where students can share their SDG projects or pose questions while incorporating quizzes. This allows other students to answer the questions and provide feedback
+    on their respective projects.
       `,
     responsibilities: `
       • Server setup, the base of the server and later the configuration to easily switch between two databases, one that uses an ORM and one that uses SQL queries.
@@ -62,11 +63,14 @@ export const projects = [
     img2: '../../../assets/weatherapp/app.png',
     img3: '../../../assets/weatherapp/weatherdata.png',
     stateOfProject: 'In Progress...',
-    about: `After starting with Python and learning Typescript at school, I started looking at expanding my language knowledge. At first I created some games using
-    C++ to get to know Visual Studio a bit more. I really liked C++ and it made me excited to learn even more languages. That's when I wanted to learn C#.
-    <br>
-    A while ago I created a little weather app using an API that ran in the console. This gave me the idea to make the app again in C#, using a GUI library to really create an
-    app. After some research I found WinForm to be an easy start. Right now this project is still in progress and I will update more when possible.`,
+    about: `After starting with Python and learning Typescript at school, I felt the desire to expand my knowledge of programming languages. 
+    As a first step, I delved into C++ and created some games to familiarize myself with Visual Studio. I found C++ to be enjoyable and it ignited 
+    my passion to explore even more languages. That's when I became interested in learning C#.
+    <br><br>
+    Not too long ago, I developed a small weather app that utilized an API and ran in the console. 
+    This experience sparked the idea of recreating the app using C# and incorporating a GUI library to build a fully-fledged application. 
+    After conducting some research, I discovered that WinForm provided an easy starting point for this endeavor. Currently, I am still working on this project, 
+    and I will provide further updates as soon as possible.`,
     responsibilities: `
     • Project setup in C#/.NET.
       <br>
@@ -75,6 +79,36 @@ export const projects = [
     • Creating a simple GUI using WinForm.
       <br>`,
     github: 'https://github.com/Maddayum22/weather-app',
+    collaborators: '"Personal Project"',
+  },
+  {
+    id: 2,
+    title: '"Small Practice Projects"',
+    typeOfProject: '"Small projects to learn to code"',
+    techstack: '"Python"',
+    img1: '../../../assets/small-projects/code1.png',
+    img2: '../../../assets/small-projects/code2.png',
+    img3: '../../../assets/small-projects/code3.png',
+    stateOfProject: 'Finished for now.',
+    about: `When I embarked on my coding journey in 2022, I began by immersing myself in Python. Initially, I worked on small console applications and 
+    experimented with simple GUI and Turtle apps. While these projects may have been relatively straightforward, they ignited a deep sense of motivation
+     within me to further develop my coding skills.
+    <br><br>
+    These early projects served as a solid foundation for observing the evolution of my coding abilities. What started as small console 
+    apps gradually paved the way for tackling more complex challenges, such as developing complete backend web APIs. Witnessing the progression 
+    from basic console apps to advanced web development was a testament to my growing expertise and encouraged me to delve deeper into the world of coding.
+    <br><br>
+    As I transitioned from simple Python projects to more ambitious undertakings, I discovered the limitless possibilities that coding offered. 
+    The process of continuously honing my skills and exploring new horizons became an exhilarating journey, propelling me towards the pursuit of 
+    even greater coding feats.`,
+    responsibilities: `
+    • Project setup using Python.
+      <br>
+    • Installing libraries and other imports.
+      <br>
+    • Learning to code.
+      <br>`,
+    github: 'https://github.com/Maddayum22/small-python-projects',
     collaborators: '"Personal Project"',
   },
 ];
