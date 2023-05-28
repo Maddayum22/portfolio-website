@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+.type {
+    color: #939F5C;
+    display:inline-flex;
+  }
+  
+  .type span {
+    height:1.2em;
+    width:0%;
+    word-break:break-all;
+    overflow: hidden;
+    animation:
+      c 0.5s infinite steps(1),  
+      t 2s linear infinite alternate;
+  }
+  .type span:before {
+    content:" ";
+    display:inline-block;
+  }
+  
+  @keyframes t{
+    90%,100% {width:100%}
+  }
+  
+  @keyframes c{
+    0%,100%{box-shadow:3px 0 0 #ffffff00}
+    50%    {box-shadow:3px 0 0 rgb(255, 255, 255)  }
+  }
+
 body {
     padding: 0px;
     margin: 0px;

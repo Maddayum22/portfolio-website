@@ -74,27 +74,28 @@ h2 {
 }
 
 #imgStack {
-    width: 40%;
+    width: 30%;
     position: relative;
+    padding-right: 1rem;
 }
 
 #img1 {
     position: absolute;
-    left: 0;
+    left: -5rem;
     top: 0;
     z-index: 1;
 }
 
 #img2 {
     position: absolute;
-    left: 5rem;
+    left: -3rem;
     top: 5rem;
     z-index: 2;
 }
 
 #img3 {
     position: absolute;
-    left: 10rem;
+    left: 0rem;
     top: 10rem;
     z-index: 3;
 }
@@ -104,30 +105,48 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
+    #projectAbout {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .projectLi {
+        height: 25rem;
+        margin-right: 0rem;
+    }
+
     #aboutDetail {
         font-size: 0.5rem;
-        width: 100%;
+        width: 80%;
         justify-content: left;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
         margin-left: 2rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
+        margin-right: 0rem;
     }
 
     #aboutDetailText {
         width: 100%;
+        font-size: 0.6rem;
         word-wrap: break-word;  
     }
 
     #imgStack {
         margin-top: 1rem;
+        margin-right: 0.7rem;
         width: 100%;
     }
 
     #img1, #img2, #img3 {
-        width: 17rem;
+        width: 15rem;
+    }
+
+    #img1 {
+        left: 0;
+        top: 0;
     }
 
     #img2 {
