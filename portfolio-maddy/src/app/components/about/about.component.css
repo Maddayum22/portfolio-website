@@ -1,0 +1,149 @@
+.highlighted {
+    color: #939F5C;
+    font-weight: 200;
+  } 
+
+  #header {
+    color: #939F5C;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+#link {
+    text-decoration: none;
+    color: #7785AC;
+}
+
+#link:hover {
+    color: #AAADC4;
+    font-weight: 600;
+}
+
+.aboutHome {
+    margin-top: 3rem;
+    width: 75%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.type {
+    color: #939F5C;
+    display:inline-flex;
+  }
+  
+  .type span {
+    height:1.2em;
+    width:0%;
+    word-break:break-all;
+    overflow: hidden;
+    animation:
+      c 0.5s infinite steps(1),  
+      t 2s linear infinite alternate;
+  }
+  .type span:before {
+    content:" ";
+    display:inline-block;
+  }
+  
+  @keyframes t{
+    90%,100% {width:100%}
+  }
+  
+  @keyframes c{
+    0%,100%{box-shadow:3px 0 0 #ffffff00}
+    50%    {box-shadow:3px 0 0 rgb(255, 255, 255)  }
+  }
+
+  #img {
+    width: 20rem;
+  }
+
+
+  #aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #272b34;
+    width: 100%vw;
+    padding-top: 2rem;
+    height: 27rem;
+}
+
+#aboutMe p {
+    width: 60%;
+}
+
+#headerBottem {
+    color: #939F5C;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutHome {
+        margin-top: 3rem;
+        padding-left: 10px;
+        justify-content: left;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #headerBottem {
+        width: 75%;
+        font-size: 1rem;
+        height: 1rem;
+    }
+
+
+    #header {
+        font-size: 1rem;
+    }
+
+    #aboutDetail {
+        font-size: 0.5rem;
+        width: 100%;
+    }
+
+    #aboutDetailText {
+        width: 100%;
+        word-wrap: break-word;  
+    }
+
+    #aboutMe {
+        height: 45rem;
+    }
+
+    #headerBottem {
+        justify-content: center;
+        width: 100%vw;
+        margin-bottom: 2rem;
+    }
+
+    #aboutMe p {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    #img {
+        width: 10rem;
+      }
+  }

@@ -1,0 +1,73 @@
+.highlighted {
+    color: #939F5C;
+    font-weight: 200;
+  } 
+
+h2 {
+    font-weight: 400;
+}
+
+#link {
+    text-decoration: none;
+    color: #7785AC;
+}
+
+#link:hover {
+    color: #AAADC4;
+    font-weight: 600;
+}
+
+.aboutHome {
+    margin-top: 10rem;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%vw;
+    height: 20rem;
+    background-color: #272b34;
+}
+
+#header {
+    color: #939F5C;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .aboutHome {
+        margin-top: 3rem;
+        justify-content: left;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    #aboutDetail {
+        font-size: 0.5rem;
+        width: 100%;
+    }
+
+    #aboutDetailText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        word-wrap: break-word;  
+    }
+
+    #header {
+        font-size: 1rem;
+    }
+    
+  }

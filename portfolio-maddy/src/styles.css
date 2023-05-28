@@ -16,3 +16,7 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+::selection {
+    background-color: #939F5C88;
+}
